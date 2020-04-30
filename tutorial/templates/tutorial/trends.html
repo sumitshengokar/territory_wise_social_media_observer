@@ -1,0 +1,17 @@
+{% extends 'tutorial/base.html' %}
+
+{% block content %}
+
+
+   <form action='/top_trends/' method="post">
+
+    {%csrf_token%}
+    Enter Country Name :
+    <input type="text" name="trw" required> <br>
+       <button type="submit" >Submit</button>
+
+{% endblock %}
+
+
+
+

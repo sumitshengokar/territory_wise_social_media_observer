@@ -1,0 +1,22 @@
+{% extends 'tutorial/base.html' %}
+
+{% block content %}
+
+  <form action='/search/' method="post">
+
+    {%csrf_token%}
+      <big>input text: </big> <input type="text" name="param" required> <br>
+      <big>Count : </big> <input type="number" name="number" required> <br>
+      <button type="submit">Submit</button>
+ </form>
+
+
+
+
+
+    <!--<a href ="{% url 'vu' %}" >visalize tweet content  </a>-->
+    <!--<a href ="{%url 'hash' %}" >Visualize hashtag  </a>-->
+    <!--<a href ="{%url 'mention' %}" >Visualize mentions </a>-->
+
+
+{% endblock %}

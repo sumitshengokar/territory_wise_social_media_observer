@@ -1,0 +1,19 @@
+{% extends 'tutorial/base.html' %}
+
+{% block content %}
+
+
+   <form action='/top_time/' method="post">
+
+    {%csrf_token%}
+    Enter Valid Screen Name :
+    <input type="text" name="screen" required> <br>
+    Enter Count:
+    <input type="number" name="num" required> <br>
+    <button type="submit" >Submit</button>
+
+{% endblock %}
+
+
+
+
