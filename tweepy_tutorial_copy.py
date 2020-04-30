@@ -34,10 +34,10 @@ def add_in_db(retweet_count, text, create, likes, location, source, reply, retwe
 
 def run_code():
     # Replace the "None"s by your own credentials
-    ACCESS_TOKEN = '1226756571499089922-9k7CYMcwiassaccMl7KHONByoEVVYH'
-    ACCESS_TOKEN_SECRET = 'W5B6FYKJ1sHPV9iZ23IJyH7jnw07lTZPkQ1whXHBwpTDx'
-    CONSUMER_KEY = 'LHIbifnCRZHleOt4mI8e4Qdtg'
-    CONSUMER_SECRET = 'kwItWpU4cFEKV7EMVqmg2OIqCzT3XjH5o3QmwRQP6cUCseUSfA'
+    ACCESS_TOKEN = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+    ACCESS_TOKEN_SECRET = 'YYYYYYYYYYYYYYYYYYYYY'
+    CONSUMER_KEY = 'ZZZZZZZZZZZZZZZZZZZZZZZZZZZZ'
+    CONSUMER_SECRET = 'SSSSSSSSSSSSSSSSSS'
 
     auth = OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
     auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
